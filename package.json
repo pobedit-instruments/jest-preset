@@ -1,0 +1,11 @@
+{
+    "name": "@pobedit/jest-preset",
+    "version": "0.0.1",
+    "description": "A preset that is used as a base for Jest's configuration",
+    "author": "Alexander Abashkin <monolithed@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:pobedit-instruments/jest-preset.git"
+    }
+}
