@@ -1,6 +1,6 @@
-module.exports = {
-    coverageDirectory: 'coverage',
+const path = require('path');
 
+module.exports = {
     moduleFileExtensions: [
         'less',
         'js',
@@ -14,7 +14,7 @@ module.exports = {
     },
 
     setupFiles: [
-        './jest/setup-files/index'
+        path.resolve(__dirname, './addons/index')
     ],
 
     snapshotSerializers: [
@@ -26,10 +26,6 @@ module.exports = {
     testMatch: [
         '**/__tests__/**/*.ts?(x)',
         '**/?(*.)+(spec|test).ts?(x)'
-    ],
-
-    testPathIgnorePatterns: [
-        '/node_modules/'
     ],
 
     transform: {

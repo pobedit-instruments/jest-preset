@@ -7,5 +7,20 @@
     "repository": {
         "type": "git",
         "url": "git@github.com:pobedit-instruments/jest-preset.git"
+    },
+
+    "dependencies": {
+        "@types/node": "13.13.4",
+        "@types/enzyme": "3.10.5",
+        "@types/jest": "25.2.1",
+        "@types/jsdom": "16.2.1",
+        "@types/enzyme-adapter-react-16": "1.0.6",
+        "enzyme": "3.11.0",
+        "enzyme-adapter-react-16": "1.15.2",
+        "enzyme-to-json": "3.4.4",
+        "jsdom": "16.2.2",
+        "ts-jest": "^25.4.0",
+        "jest": "26.0.0",
+        "jest-transform-stub": "2.0.0"
     }
 }
